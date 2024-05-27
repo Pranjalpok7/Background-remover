@@ -43,7 +43,7 @@ my_project/
 
 ### (1) Clone this repo
 ```
-git clone https://github.com/xuebinqin/DIS.git
+git clone https://github.com/nit-1418/Background-remover.git
 ```
 
 ### (2) Create and activate a virtual environment (optional but recommended):
@@ -61,11 +61,11 @@ pip install -r requirements.txt
 ### (4) Download the pre-trained model weights and place them in the saved_models directory. Ensure the weights file is named isnet.pth
 
 
-###(5) Run the application:
+### (5) Run the application:
 ```
 uvicorn main:app --reload
 
 ```
 
-###(6) Access the application:
+### (6) Access the application:
 <br> Open your web browser and navigate to 'http://localhost:8000'.
