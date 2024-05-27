@@ -16,7 +16,7 @@ This repository contains a web application for removing backgrounds from images 
 - **HTML/CSS**: For building the frontend user interface.
 
 ## Project Structure
-
+```
 my_project/
 ├── models/
 │ └── __init__.py
@@ -32,7 +32,7 @@ my_project/
 ├── index.html # Home page template
 ├── main.py # Main FastAPI application
 ├── requirements.txt # List of project dependencies
-
+```
 
 <br>
 
@@ -58,7 +58,8 @@ source myenv/bin/activate  # On Windows, use `myenv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-### (4) Download the pre-trained model weights and place them in the saved_models directory. Ensure the weights file is named isnet.pth
+### (4) Download the pre-trained model weights
+place them in the saved_models directory. Ensure the weights file is named isnet.pth
 
 
 ### (5) Run the application:
@@ -68,4 +69,4 @@ uvicorn main:app --reload
 ```
 
 ### (6) Access the application:
-<br> Open your web browser and navigate to 'http://localhost:8000'.
+Open your web browser and navigate to 'http://localhost:8000'.
